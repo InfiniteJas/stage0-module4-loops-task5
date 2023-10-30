@@ -3,7 +3,8 @@ package school.mjc.stage0.loops.task5;
 public class Hourglass {
     public void printHourglassOfGivenSize(int height) {
         if (height <= 0) {
-            return 0;
+            System.out.println("Error");
+            return;
         }
 
         // Print the upper part of the hourglass

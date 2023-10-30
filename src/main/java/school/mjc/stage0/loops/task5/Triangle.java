@@ -3,7 +3,8 @@ package school.mjc.stage0.loops.task5;
 public class Triangle {
     public void printTriangle(int cathetusLength) {
         if (cathetusLength <= 0) {
-            return 0;
+            System.out.println("Error");
+            return;
         }
 
         for (int i = 1; i <= cathetusLength; i++) {

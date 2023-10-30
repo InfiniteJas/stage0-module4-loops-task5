@@ -3,7 +3,7 @@ package school.mjc.stage0.loops.task5;
 public class Cross {
     public void printCross(int sideLength) {
         if(sideLength < 1) {
-            System.out.print(" ");
+            System.out.print("");
             return;
         }
 

@@ -7,7 +7,6 @@ public class Hourglass {
             return;
         }
 
-        // Print the upper part of the hourglass
         for (int i = 0; i < height; i++) {
             // Print spaces before '8'-s
             for (int j = 0; j < i; j++) {
